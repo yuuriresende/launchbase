@@ -1,0 +1,56 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap";
+
+*{  /**tira as propriedades que o navegador coloca automaticamente **/
+  margin: 0;
+  padding: 0;
+  border: 0;
+} 
+
+body {
+  background: #282a36;      
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+header{
+  padding: 32px;
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+header div{
+  text-align: center;
+}
+
+header div a{  /** quanto maior a profundidade, maior a força **/
+  color: white;
+  font-size: 18px;
+  line-height: 28px; /** tamanho da linha(sempre colocar 10px a mais do tam da fonte) **/
+  margin: 0px 16px;
+  padding-bottom: 3px;
+  text-decoration: none; /** retira traço debaixo do link **/
+}
+
+header div a:hover{
+  color: #50fa7b;
+  transition: color 750ms;/** efeito de transição **/
+
+}
+
+#wrapper{
+  text-align: center;
+  padding: 32px;
+}
+
+#wrapper img {
+  height: 80%;
+  border-radius: 50%; 
+  border: 5px solid #50fa7b;
+  margin-bottom: 32px;
+}
+
+#wrapper h1{
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
