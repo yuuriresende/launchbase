@@ -132,6 +132,8 @@ header{
   height: 100%;
   position: fixed;
   top:0;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal{
@@ -149,4 +151,18 @@ header{
   top: 16px;
   cursor: pointer; /* coloca a maozinha pq tiramos o href */
 
+}
+
+
+/***** MODAL ACTIVE *****/
+.modal-overlay.active{
+  visibility: visible;
+  opacity: 1;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
 }
